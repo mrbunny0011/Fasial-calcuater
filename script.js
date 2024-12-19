@@ -35,12 +35,13 @@ btn.addEventListener("click", () => {
     let ans_s2 =S2(h, l, c);
 
     //print
-    const peint_name = document.querySelector(".name").textContent=`Name is ${name}`; // Assuming this is for display
-    const peint_P = document.querySelector(".P").textContent=`P is  ${ans_p}`;
-    const peint_1R = document.querySelector(".R1").textContent=`1R is ${ans_r1}`;
-    const peint_1S = document.querySelector(".S1").textContent=`1S is ${ans_s1}`;
-    const peint_2R = document.querySelector(".R2").textContent=`2R is ${ans_r2}`;
-    const peint_2S = document.querySelector(".S2").textContent=`2S is ${ans_s2}`;
+    const peint_name = document.querySelector(".name").textContent=`Calculation of ${name}`; // Assuming this is for display
+    const peint_P = document.querySelector(".P").textContent=`P is : ${ans_p}`;
+    const peint_1R = document.querySelector(".R1").textContent=`1R is : ${ans_r1}`;
+    const peint_1S = document.querySelector(".S1").textContent=`1S is : ${ans_s1}`;
+    const peint_2R = document.querySelector(".R2").textContent=`2R is : ${ans_r2}`;
+    const peint_2S = document.querySelector(".S2").textContent=`2S is : ${ans_s2}`;
+   
 });
 
 // Functions
@@ -83,7 +84,7 @@ clear.addEventListener("click",()=>{
     const L = document.querySelector("#l").value="";
     const C = document.querySelector("#c").value="";
 
-    const peint_name = document.querySelector(".name").textContent=`Name `; // Assuming this is for display
+    const peint_name = document.querySelector(".name").textContent=`Calculation of `; // Assuming this is for display
     const peint_P = document.querySelector(".P").textContent=`P `;
     const peint_1R = document.querySelector(".R1").textContent=`1R `;
     const peint_1S = document.querySelector(".S1").textContent=`1S `;

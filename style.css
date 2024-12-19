@@ -17,7 +17,7 @@ h1{
 }
 
 form{
-    margin: 20px;
+    margin: 10px;
     
 
 }
@@ -38,19 +38,21 @@ form input{
     font-size: 15px;
 }
 button{
-    background-color: rgb(38, 68, 161);
+    background-color: rgb(31, 156, 15);
     padding: 6px 13px;
     color: white;
+    font-size: 17px;
     font-weight: 600;
     border-radius: 10px;
     cursor: pointer;
     border: none;
-    margin: 0px 40px;
+    margin: 0px 60px;
+
     margin-bottom: 20px;
 }
 button:hover{
     transform: translateY(-3px);
-    background-color: rgb(31, 53, 121);
+    background-color: rgb(31, 156, 15);
 }
 
 .ans{
@@ -58,12 +60,13 @@ button:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    margin: 20px;
 
 }
 
 #clear{
-    background-color: rgb(198, 131, 6);
+    background-color: rgb(198, 43, 16);
+    margin: 0;
 }
 
 /* Responsive Design */
