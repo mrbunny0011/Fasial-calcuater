@@ -145,7 +145,7 @@ let mod_btn=document.querySelector(".mod");
 let mod="dark"
 mod_btn.addEventListener("click",()=>{
     if(mod === "dark"){
-        mod_btn.textContent="Dark Mood";
+        mod_btn.textContent="Dark Mode";
         mod_btn.style.backgroundColor="black";
         mod_btn.style.color="white";
         body.style.backgroundColor="white";
@@ -166,7 +166,7 @@ mod_btn.addEventListener("click",()=>{
 
         mod="light";
     }else{
-        mod_btn.textContent="Light Mood";
+        mod_btn.textContent="Light Mode";
         mod_btn.style.backgroundColor="white";
         mod_btn.style.color="black";
         body.style.backgroundColor="rgb(25, 25, 25)";
