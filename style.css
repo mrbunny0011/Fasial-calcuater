@@ -3,8 +3,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(25, 25, 25);
-    color: white;
+    
     font-family: "Poppins", sans-serif;
 
 }
@@ -26,12 +25,11 @@ form label{
 }
 
 form input{
-    background-color: rgb(50, 50, 50);
+   
     outline: none;
     border: 1px solid gray;
     border-radius: 4px;
     padding: 3px 4px;
-    color: white;
     margin-bottom: 30px;
     font-size: 15px;
 }
@@ -84,15 +82,15 @@ button:hover{
 }
 
 .mod{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     position: absolute;
     right: 1px;
     top:20px;
     font-size: 13px;
 }
 .mod:hover{
-    background-color: antiquewhite;
+    background-color: rgb(41, 41, 41);
 
 }
 /* Responsive Design */
