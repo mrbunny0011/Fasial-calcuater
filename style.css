@@ -2,9 +2,7 @@
     padding: 0;margin: 0;
     box-sizing: border-box;
 }
-html,body{
-    height: 100%;
-    width: 100%;
+body{
     background-color: rgb(25, 25, 25);
     color: white;
     font-family: "Poppins", sans-serif;
@@ -69,6 +67,34 @@ button:hover{
     margin: 0;
 }
 
+.green{
+    color:  rgb(31, 156, 15);
+}
+.red{
+    color:rgb(198, 43, 16);
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
+.dark{
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
+
+.mod{
+    background-color: white;
+    color: black;
+    position: absolute;
+    right: 1px;
+    top:20px;
+    font-size: 13px;
+}
+.mod:hover{
+    background-color: antiquewhite;
+
+}
 /* Responsive Design */
 @media (max-width: 768px) {
     form {
@@ -95,6 +121,9 @@ button:hover{
 }
 
 @media (max-width: 480px) {
+    body{
+        position: relative;
+    }
     form input {
         font-size: 12px;
         padding: 8px;
@@ -107,5 +136,14 @@ button:hover{
 
     h1 {
         font-size: 18px;
+    }
+
+    .mod{
+        background-color: white;
+        color: black;
+        position: absolute;
+        right: -30px;
+        top:40px;
+        font-size: 13px;
     }
 }
