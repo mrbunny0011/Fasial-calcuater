@@ -142,7 +142,7 @@ let input = document.querySelectorAll("input")
 let spans=document.querySelectorAll("span");
 let body=document.querySelector("body");
 let mod_btn=document.querySelector(".mod");
-let mod="light"
+let mod="light";
 mod_btn.addEventListener("click",()=>{
     if(mod === "dark"){
         mod_btn.textContent="Dark Mode";
