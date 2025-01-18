@@ -166,7 +166,7 @@ mod_btn.addEventListener("click",()=>{
 
         mod="light";
     }else{
-        mod_btn.textContent="light Mood";
+        mod_btn.textContent="Light Mood";
         mod_btn.style.backgroundColor="white";
         mod_btn.style.color="black";
         body.style.backgroundColor="rgb(25, 25, 25)";
