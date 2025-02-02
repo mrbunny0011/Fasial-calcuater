@@ -2,14 +2,65 @@
     padding: 0;margin: 0;
     box-sizing: border-box;
 }
+html{
+    
+}
 body{
     
     font-family: "Poppins", sans-serif;
+    width: 100%; 
+    position: relative;
 
 }
+.nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(247, 250, 253);
+    
+}
+.nav .dropdown{
+    padding-right: 70px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+ul{
+    position: absolute;
+    z-index: 2px;
+    font-size: 15px;
+    background-color: rgb(228, 244, 253);
+    padding: 5px;
+    
+    
+
+
+}
+ul li{
+    list-style: none;
+    padding: 5px;
+    display: none;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown:hover ul li{
+    width: 100px;
+    display: block;
+}
+li:hover{
+    background-color: white;
+}
+
 h1{
     text-align: center;
     margin: 10px;
+    color: black;
 
 }
 
@@ -33,7 +84,7 @@ form input{
     margin-bottom: 30px;
     font-size: 15px;
 }
-button{
+.sub, #clear{
     background-color: rgb(31, 156, 15);
     padding: 6px 13px;
     color: white;
@@ -52,7 +103,6 @@ button:hover{
 }
 
 .ans{
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,18 +131,7 @@ button:hover{
     color: white;
 }
 
-.mod{
-    background-color: black;
-    color: white;
-    position: absolute;
-    right: 1px;
-    top:20px;
-    font-size: 13px;
-}
-.mod:hover{
-    background-color: rgb(41, 41, 41);
 
-}
 /* Responsive Design */
 @media (max-width: 768px) {
     form {
@@ -120,6 +159,7 @@ button:hover{
 
 @media (max-width: 480px) {
     body{
+        width: 100%;
         position: relative;
     }
     form input {
@@ -133,7 +173,7 @@ button:hover{
     }
 
     h1 {
-        font-size: 21px;
+        font-size: 19px;
     }
 
     .mod{
@@ -146,4 +186,32 @@ button:hover{
         justify-content: space-between;
         align-items: center;
     }
+
+    .nav .dropdown{
+        padding-right: 60px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    ul{
+        position: absolute;
+        z-index: 2px;
+        font-size: 13px;
+        background-color: rgb(228, 244, 253);
+        padding: 5px;
+    }
+    ul li{
+        list-style: none;
+        padding: 5px;
+        display: none;
+    
+    }
+    .dropdown:hover ul li{
+        width: 100%;
+        display: block;
+    }
+    li:hover{
+        background-color: white;
+    }
+    
 }
